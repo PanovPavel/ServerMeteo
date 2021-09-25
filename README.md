@@ -19,7 +19,7 @@ maven
 ![til](https://github.com/PanovPavel/ServerMeteo/blob/main/bandicam%202021-09-25%2004-45-46-958.gif?raw=true)
 
 ## Конфигурации
-
+В проекте два модуля. Клиент и сервер.
 Собрать проект с помощю maven
 
 ## Использование

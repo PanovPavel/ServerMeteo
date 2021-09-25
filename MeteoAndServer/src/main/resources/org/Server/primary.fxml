@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" prefHeight="276.0" prefWidth="405.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.Server.PrimaryController">
+   <children>
+      <HBox prefHeight="51.0" prefWidth="405.0">
+         <children>
+            <Button fx:id="ServerStart" mnemonicParsing="false" onAction="#switchToStartServer" text="StartServer">
+               <HBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </HBox.margin>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="StopServer" contentDisplay="CENTER" mnemonicParsing="false" onAction="#switchToStopServer" text="StopServer" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" top="10.0" />
+         </VBox.margin>
+      </HBox>
+      <Label alignment="CENTER" prefHeight="9.0" prefWidth="227.0" text="logServer">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="informationFromServer" alignment="TOP_CENTER" prefHeight="260.0" prefWidth="461.0" text="Label" />
+   </children>
+</VBox>
